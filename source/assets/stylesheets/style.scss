@@ -1,0 +1,25 @@
+@import "compass";
+
+html {
+}
+
+body {
+	margin: 0;
+	padding: 0;
+}
+
+.main-canvas {
+	@include background-image(radial-gradient(circle farthest-corner at left top, rgba(65,181,116,1.0), rgba(204,204,204,0.85) 60%, rgba(115,192,68,0.8) 120%) ,url(../images/bgnoise_lg.png));
+	display: block;
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: -1;
+}
+
+.container {
+	height: 1600px;
+}
+
+
+// -webkit-radial-gradient(10% 0, farthest-side ellipse, rgba(65,181,116,0.89), rgba(204,204,204,0.85) 60%, rgba(115,192,68,0.4) 120%)
